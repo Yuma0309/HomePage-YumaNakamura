@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* 基本の設定 -------------------------------------------- */
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; /* フォントを指定 */
+	font-size: 16px; /* 書体データの大きさを指定 */
+	line-height: 1.7; /* 行ボックスの高さを指定 */
+	margin: 0; /* 要素間の間隔 */
+	padding: 0; /* 要素内の余白 */
+}
+
+section,article, aside, header, footer { display: block; } /* コンテンツをまとめるブロック */
+
+h1,h2,h3,h4 {
+	text-align: center; /* テキストの水平方向への配置を中央に指定 */
+	font-family: "Montserrat",sans-serif;
+	font-weight: bold; /* フォントの太さを指定 */
+}
+
+ul, li {
+	margin: 15px;
+	padding: 0;
+	top: 50px; /* 上からの距離 */
+	position: relative; /* 要素を本来の位置から相対的に配置して指定 */
+	list-style: none; /* リストとして認識させない */
+}
+
+a { text-decoration: none; } /* テキストの装飾を指定しない */
+b { color: rgb(0, 217, 255); } /* 色を指定 */
+c { color: red; }
+d { color: rgb(18, 253, 69); }
+
+img { /* フルードイメージ（画層を画面サイズに合わせて調整）対応 */
+	max-width: 100%; /* 要素の最大幅を指定 */
+	height: auto; /* 自動的に中身の要素に高さを合わせる */
+}
+
+/* ナビエリア -------------------------------------------- */
+nav {
+	background: url("../images/saidoba.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
+	/* background: rgb(253, 247, 194); 背景の色を指定 */
+	width: 100%; /* 要素の幅を指定 */
+	max-width: 200px;
+	font-size: 25px;
+	padding-bottom: 1200px; /* 要素内の余白を指定 */
+	margin-bottom:-1200px;
+	top: 0; /* 上からの距離 */
+	position: absolute; /*要素を絶対配置で指定*/
+}
+
+/* ヘッダー -------------------------------------------- */
+header {
+	width: 100%;
+	padding: 2em 0;
+	background: url("../images/header.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
+	margin-left: 200px; /* 要素の左の間隔 */
+	top: 0;
+	right: 0; /* 右からの距離 */
+	position: absolute;
+}
+
+/* メインエリア -------------------------------------------- */
+main {
+	width: 100%;
+	max-width: 2000px;
+	margin: 200px 0 0 200px;
+}
+
+/* リンク文字の色設定 */
+main a { color: #2c9795; }
+
+/* フッター -------------------------------------------- */
+footer {
+	background-color: #57b0f8;
+	color: #40666a;
+	font-family: "Montserrat",sans-serif;
+	text-align: center;
+	width: 100%;
+	padding: 4em 0;
+	position: relative;
+	clear: both;
+}
+
+/* 写真の設定 -------------------------------------------- */
+.photo {
+	width: 20%;
+	margin: 3em 0 3em 9em;
+	padding: 1em;
+	float: left;
+}
+
+/* プロフィールの設定 -------------------------------------------- */
+.profile {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+/* 表の装飾 -------------------------------------------- */
+table { /* 表全体の外枠 */
+	border: 0px solid #ddd; /* 要素の境界、太さ、１本線で表示、色 */
+	border-collapse: separate; /* セルのボーダーの表示の仕方を指定、 隣接するセルのボーダーを間隔を開けずに表示*/
+	border-spacing: 0 20px; /* 隣り合うセルの境界同士の間隔 */
+	margin: 3em 1em 3em 9em;
+}
+table th { /* 表の左全体の枠 */
+	border: solid rgb(0, 0, 0);
+	border-width: 0 0 1px 8px; /* セル内の線の場所と太さを指定 */
+	line-height: 120%; /* セル内の高さを少し低めに指定 */
+	padding: 20px 8px; /* セル内の余白を指定 */
+	width: 15%; /* 横同士のセルの比率を指定 */
+}
+table td { /* 表の右全体の枠 */
+	border: solid rgb(0, 0, 0);
+	border-width: 0 0 1px 0;
+	padding: 20px 20px;
+	width: 85%;
+}
+
+/* ---------------------- 画面の横幅が1500px以下の場合に適用（タブレット用） ---------------------- */
+@media screen and (max-width: 1500px) {
+nav {
+	padding-bottom: 1900px; /* 要素内の余白を指定 */
+	margin-bottom:-1900px;
+}
+
+.photo {
+	float: none; /* フロート解除して縦一列に並べる */
+	margin-left: 200px;
+	width: 40%;
+}
+}
+
+/* ---------------------- 画面の横幅が800px以下の場合に適用（スマートフォン用） ---------------------- */
+@media screen and (max-width: 800px) {
+
+ul, li {
+	margin-left: 5px;
+	padding: 0;
+	top: 50px; /* 上からの距離 */
+}
+
+nav {
+	max-width: 100px;
+	font-size: 15px;
+	padding-bottom: 2150px; /* 要素内の余白を指定 */
+	margin-bottom:-2150px;
+}
+
+h1 {
+	margin-left: 100px;
+}
+
+main {
+	margin: 200px 0 0 40px;
+}
+
+.photo {
+		float: none;
+		margin-left: 50px;
+		width: 80%;
+}
+
+table {
+	margin: 3em 1em 3em 4em;
+}
+
+}
