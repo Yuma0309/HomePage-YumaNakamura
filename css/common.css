@@ -41,7 +41,7 @@ img { /* フルードイメージ（画層を画面サイズに合わせて調�
 
 /* ナビエリア -------------------------------------------- */
 nav {
-	background: url("../images/saidoba.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
+	background: url("../images/SideMenu.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
 	width: 100%; /* 要素の幅を指定 */
 	max-width: 200px;
 	font-size: 25px;
