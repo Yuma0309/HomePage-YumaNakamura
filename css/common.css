@@ -172,23 +172,23 @@ main {
 
 .photo {
 		float: none;
-		margin-left: 50px;
-		width: 80%;
+		margin-left: 70px;
+		width: 70%;
 }
 
 table {
 	margin-left: 0;
-	padding-left: 12em;
-	padding-right: 2em;
+	padding-left: 8em;
+	padding-right: 6em;
 }
 
 table th {
 	padding: 0; /* セル内の余白を指定 */
-	width: 15%; /* 横同士のセルの比率を指定 */
+	width: 20%; /* 横同士のセルの比率を指定 */
 }
 table td {
 	padding: 0;
-	width: 85%;
+	width: 80%;
 }
 
 }
