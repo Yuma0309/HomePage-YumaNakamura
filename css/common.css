@@ -133,7 +133,7 @@ nav {
 }
 
 main {
-	max-width: 650px;
+	max-width: 700px;
 }
 
 .photo {
@@ -143,8 +143,8 @@ main {
 }
 table {
 	margin-left: 0;
-	padding-left: 3em;
-	padding-right: 1em;
+	padding-left: 0;
+	padding-right: 3em;
 }
 
 }
