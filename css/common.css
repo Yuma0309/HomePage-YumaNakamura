@@ -138,13 +138,13 @@ main {
 
 .photo {
 	float: none; /* フロート解除して縦一列に並べる */
-	margin-left: 200px;
-	width: 40%;
+	margin-left: 100px;
+	width: 60%;
 }
 table {
-	margin-left: 3em;
+	margin-left: 0;
 	padding-left: 3em;
-	padding-right: 13em;
+	padding-right: 1em;
 }
 
 }
