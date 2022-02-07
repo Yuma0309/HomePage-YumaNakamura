@@ -65,7 +65,7 @@ header {
 /* メインエリア -------------------------------------------- */
 main {
 	width: 100%;
-	max-width: 2000px;
+	max-width: 1470px;
 	margin: 200px 0 0 200px;
 }
 
@@ -130,6 +130,10 @@ nav {
 	margin-bottom:-2300px;
 }
 
+main {
+	max-width: 1000px;
+}
+
 .photo {
 	float: none; /* フロート解除して縦一列に並べる */
 	margin-left: 200px;
@@ -167,6 +171,7 @@ h1 {
 }
 
 main {
+	max-width: 450px;
 	margin: 200px 0 0 40px;
 }
 
