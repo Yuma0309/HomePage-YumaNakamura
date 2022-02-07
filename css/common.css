@@ -126,12 +126,14 @@ table td { /* 表の右全体の枠 */
 /* ---------------------- 画面の横幅が1500px以下の場合に適用（タブレット用） ---------------------- */
 @media screen and (max-width: 1500px) {
 nav {
+	max-width: 150px;
+	font-size: 18px;
 	padding-bottom: 2300px; /* 要素内の余白を指定 */
 	margin-bottom:-2300px;
 }
 
 main {
-	max-width: 800px;
+	max-width: 650px;
 }
 
 .photo {
