@@ -130,6 +130,10 @@ nav {
 	margin-bottom:-2300px;
 }
 
+main {
+	max-width: 1450px;
+}
+
 .photo {
 	float: none; /* フロート解除して縦一列に並べる */
 	margin-left: 200px;
@@ -143,8 +147,8 @@ table {
 
 }
 
-/* ---------------------- 画面の横幅が800px以下の場合に適用（スマートフォン用） ---------------------- */
-@media screen and (max-width: 800px) {
+/* ---------------------- 画面の横幅が600px以下の場合に適用（スマートフォン用） ---------------------- */
+@media screen and (max-width: 600px) {
 
 body {
 font-size: 10px;
@@ -157,7 +161,7 @@ ul, li {
 
 nav {
 	max-width: 80px;
-	font-size: 13px;
+	font-size: 12px;
 	padding-bottom: 2100px; /* 要素内の余白を指定 */
 	margin-bottom:-2100px;
 }
@@ -167,7 +171,7 @@ h1 {
 }
 
 main {
-	max-width: 330px;
+	max-width: 340px;
 	margin: 200px 0 0 40px;
 }
 
