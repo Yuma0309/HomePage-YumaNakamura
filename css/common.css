@@ -133,7 +133,7 @@ nav {
 }
 
 h1 {
-	margin-left: 100px;
+	margin-left: 140px;
 }
 
 main {
@@ -146,10 +146,21 @@ main {
 	margin-left: 120px;
 	width: 60%;
 }
+
 table {
 	margin-left: 3em;
 	padding-left: 0;
 	padding-right: 3em;
+}
+
+table th {
+	padding: 0; /* セル内の余白を指定 */
+	width: 20%; /* 横同士のセルの比率を指定 */
+}
+
+table td {
+	padding: 0;
+	width: 80%;
 }
 
 }
@@ -198,6 +209,7 @@ table th {
 	padding: 0; /* セル内の余白を指定 */
 	width: 20%; /* 横同士のセルの比率を指定 */
 }
+
 table td {
 	padding: 0;
 	width: 80%;
