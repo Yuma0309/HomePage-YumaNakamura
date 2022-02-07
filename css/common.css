@@ -132,9 +132,13 @@ nav {
 	margin-bottom:-2300px;
 }
 
+h1 {
+	margin-left: 80px;
+}
+
 main {
 	max-width: 650px;
-	margin: 200px 0 0 160px;
+	margin: 200px 0 0 140px;
 }
 
 .photo {
@@ -143,9 +147,9 @@ main {
 	width: 60%;
 }
 table {
-	margin-left: 0;
+	margin-left: 6em;
 	padding-left: 0;
-	padding-right: 3em;
+	padding-right: 6em;
 }
 
 }
