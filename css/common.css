@@ -507,12 +507,12 @@ table td {
 }
 
 section {
-	max-width: 330px;
+	max-width: 280px;
 	margin: 0 0 0 50px;
 }
 
 .title {
-	width: 80%;
+	width: 95%;
 }
 
 .card {
