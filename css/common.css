@@ -507,6 +507,7 @@ table td {
 }
 
 section {
+	max-width: 330px;
 	margin: 0 0 0 50px;
 }
 
