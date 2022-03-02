@@ -9,12 +9,18 @@ body {
 	padding: 0; /* 要素内の余白 */
 }
 
-section,article, aside, header, footer { display: block; } /* コンテンツをまとめるブロック */
+section, article, aside, header, footer { display: block; } /* コンテンツをまとめるブロック */
 
 h1,h2,h3,h4 {
 	text-align: center; /* テキストの水平方向への配置を中央に指定 */
 	font-family: "Montserrat",sans-serif;
 	font-weight: bold; /* フォントの太さを指定 */
+}
+
+h5 {
+	text-align: center;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 100;
 }
 
 ul, li {
@@ -41,7 +47,7 @@ img { /* フルードイメージ（画層を画面サイズに合わせて調�
 
 /* ナビエリア -------------------------------------------- */
 nav {
-	background: url("../images/SideMenu.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
+	background: url("../images/top/SideMenu.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
 	width: 100%; /* 要素の幅を指定 */
 	max-width: 200px;
 	font-size: 25px;
@@ -55,7 +61,7 @@ nav {
 header {
 	width: 100%;
 	padding: 2em 0;
-	background: url("../images/header.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
+	background: url("../images/top/header.jpg") no-repeat fixed center bottom / cover ; /* 背景の画層を挿入、繰り返さず１枚だけ、画面の決まった位置に固定、真ん中、下からの距離、画像を拡大縮小必要に応じて引き伸ばし */
 	margin-left: 200px; /* 要素の左の間隔 */
 	top: 0;
 	right: 0; /* 右からの距離 */
@@ -66,7 +72,7 @@ header {
 main {
 	width: 100%;
 	max-width: 1470px;
-	margin: 200px 0 0 200px;
+	margin: 140px 0 0 200px;
 }
 
 /* リンク文字の色設定 */
@@ -87,7 +93,7 @@ footer {
 /* 写真の設定 -------------------------------------------- */
 .photo {
 	width: 20%;
-	margin: 3em 0 3em 9em;
+	margin: 6em 0 3em 9em;
 	padding: 1em;
 	float: left;
 }
@@ -96,7 +102,7 @@ footer {
 .profile {
 	width: 100%;
 	max-width: 1000px;
-	margin: 0;
+	margin: 3em 0;
 	padding: 0;
 	float: left;
 }
@@ -121,6 +127,287 @@ table td { /* 表の右全体の枠 */
 	border-width: 0 0 1px 0;
 	padding: 20px 20px;
 	width: 85%;
+}
+
+/* セクションエリア -------------------------------------------- */
+section {
+	width: 100%;
+	max-width: 1440px;
+	margin: 70px 0 0 40px;
+	float: left;
+}
+
+.title {
+	width: 94%;
+	border: solid #00a2ff;
+	border-width: 1px 1px 1px 10px;
+}
+
+.card {
+	width: 300px;
+	margin: 50px 20px;
+	padding: 0;
+	float: left;
+}
+
+.card-color-html {
+	background-color: #a4fcff;
+	height: 600px;
+}
+
+.card-color-css {
+	background-color: #fffda4;
+	height: 600px;
+}
+
+.card-color-javascript {
+	background-color: #a4ffa9;
+	height: 600px;
+}
+
+.card-color-php {
+	background-color: #f7a4ff;
+	height: 600px;
+}
+
+.card-color-mysql {
+	background-color: #ffbea4;
+	height: 600px;
+}
+
+.card-color-github {
+	background-color: #d3d3d3;
+	height: 600px;
+}
+
+.card-color-arduino {
+	background-color: #a4ffcd;
+	height: 600px;
+}
+
+.card-color-arcad {
+	background-color: #a4ffcd;
+	height: 600px;
+}
+
+.card-color-autocad {
+	background-color: #ffa4a4;
+	height: 600px;
+}
+
+.card-color-solidworks {
+	background-color: #ffa4a4;
+	height: 600px;
+}
+
+.card-color-stream {
+	background-color: #ffa4a4;
+	height: 600px;
+}
+
+.card-color-fritzing {
+	background-color: #ffa4a4;
+	height: 600px;
+}
+
+.card-color-ltspice {
+	background-color: #a4d3ff;
+	height: 600px;
+}
+
+.card-color-bsch3v {
+	background-color: #fffda4;
+	height: 600px;
+}
+
+.card-color-flatcam {
+	background-color: #ffeaa4;
+	height: 600px;
+}
+
+.card-color-usbcnc {
+	background-color: #f0f0f0;
+	height: 600px;
+}
+
+.card-color-kanken {
+	background-color: #fdec9f;
+	height: 600px;
+}
+
+
+
+
+
+.skill-title {
+	padding: 2px;
+}
+
+.skill-icon-html {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-css {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-javascript {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-php {
+	width: 57%;
+	margin: 0;
+	padding: 0 65px;
+}
+
+.skill-icon-mysql {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-github {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-arduino {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-arcad {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-autocad {
+	width: 89%;
+	margin: 0;
+	padding: 0 30px;
+}
+
+.skill-icon-solidworks {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-stream {
+	width: 48%;
+	margin: 0;
+	padding: 0 78px;
+}
+
+.skill-icon-fritzing {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-ltspice {
+	width: 92%;
+	margin: 0;
+	padding: 0 12px;
+}
+
+.skill-icon-bsch3v {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-flatcam {
+	width: 50%;
+	margin: 0;
+	padding: 0 75px;
+}
+
+.skill-icon-usbcnc {
+	width: 70%;
+	margin: 0;
+	padding: 0 50px;
+}
+
+.skill-icon-kanken {
+	width: 88%;
+	margin: 0;
+	padding: 0 18px;
+}
+
+
+
+
+
+.section-text {
+	padding: 15px;
+}
+
+.book {
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 5px 0;
+}
+
+.book-color-html {
+	background-color: #dcfeff;
+	border-radius: 10px; /* 角の丸み */
+	padding: 5px 0;
+}
+
+.book-color-css {
+	background-color: #fdffdc;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-javascript {
+	background-color: #dcffdc;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-php {
+	background-color: #fbdcff;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-mysql {
+	background-color: #ffefdc;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-github {
+	background-color: #e7e7e7;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+
+
+
+
+.book-title {
+	text-align: left;
+	font-size: 12px;
+	padding: 5px 15px;
+}
+
+.underline {
+	text-decoration: underline;
 }
 
 /* ---------------------- 画面の横幅が1500px以下の場合に適用（タブレット用） ---------------------- */
@@ -163,6 +450,10 @@ table td {
 	width: 80%;
 }
 
+.card {
+	margin: 20px 165px;
+}
+
 }
 
 /* ---------------------- 画面の横幅が600px以下の場合に適用（スマートフォン用） ---------------------- */
@@ -190,12 +481,12 @@ h1 {
 
 main {
 	max-width: 330px;
-	margin: 200px 0 0 40px;
+	margin: 140px 0 0 40px;
 }
 
 .photo {
 		float: none;
-		margin-left: 60px;
+		margin-left: 70px;
 		width: 65%;
 }
 
@@ -213,6 +504,175 @@ table th {
 table td {
 	padding: 0;
 	width: 80%;
+}
+
+section {
+	margin: 0 0 0 50px;
+}
+
+.title {
+	width: 80%;
+}
+
+.card {
+	width: 250px;
+	margin: 20px 15px;
+}
+
+.card-color-html {
+	height: 450px;
+}
+
+.card-color-css {
+	height: 450px;
+}
+
+.card-color-javascript {
+	height: 450px;
+}
+
+.card-color-php {
+	height: 450px;
+}
+
+.card-color-mysql {
+	height: 450px;
+}
+
+.card-color-github {
+	height: 450px;
+}
+
+.card-color-arduino {
+	height: 450px;
+}
+
+.card-color-arcad {
+	height: 450px;
+}
+
+.card-color-autocad {
+	height: 450px;
+}
+
+.card-color-solidworks {
+	height: 450px;
+}
+
+.card-color-stream {
+	height: 450px;
+}
+
+.card-color-fritzing {
+	height: 450px;
+}
+
+.card-color-ltspice {
+	height: 450px;
+}
+
+.card-color-bsch3v {
+	height: 450px;
+}
+
+.card-color-flatcam {
+	height: 450px;
+}
+
+.card-color-usbcnc {
+	height: 450px;
+}
+
+.card-color-kanken {
+	height: 450px;
+}
+
+.skill-icon-html {
+	padding: 0 62px;
+}
+
+.skill-icon-css {
+	padding: 0 62px;
+}
+
+.skill-icon-javascript {
+	padding: 0 62px;
+}
+
+.skill-icon-php {
+	width: 57%;
+	margin: 0;
+	padding: 0 52px;
+}
+
+.skill-icon-mysql {
+	padding: 0 62px;
+}
+
+.skill-icon-github {
+	padding: 0 62px;
+}
+
+.skill-icon-arduino {
+	padding: 0 62px;
+}
+
+.skill-icon-arcad {
+	padding: 0 62px;
+}
+
+.skill-icon-autocad {
+	width: 89%;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.skill-icon-solidworks {
+	padding: 0 62px;
+}
+
+.skill-icon-stream {
+	width: 48%;
+	margin: 0;
+	padding: 0 64px;
+}
+
+.skill-icon-fritzing {
+	padding: 0 62px;
+}
+
+.skill-icon-ltspice {
+	width: 92%;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.skill-icon-bsch3v {
+	padding: 0 62px;
+}
+
+.skill-icon-flatcam {
+	padding: 0 62px;
+}
+
+.skill-icon-usbcnc {
+	width: 70%;
+	margin: 0;
+	padding: 0 37px;
+}
+
+.skill-icon-kanken {
+	width: 88%;
+	margin: 0;
+	padding: 0 15px;
+}
+
+.book {
+	font-size: 9px;
+}
+
+.book-title {
+	font-size: 7px;
 }
 
 }
