@@ -622,6 +622,10 @@ section {
 	padding: 0 15px;
 }
 
+.section-text {
+	padding: 7px;
+}
+
 .book {
 	font-size: 9px;
 }
@@ -698,71 +702,71 @@ section {
 }
 
 .card-color-html {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-css {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-javascript {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-php {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-mysql {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-github {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-arduino {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-arcad {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-autocad {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-solidworks {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-stream {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-fritzing {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-ltspice {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-bsch3v {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-flatcam {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-usbcnc {
-	height: 400px;
+	height: 320px;
 }
 
 .card-color-kanken {
-	height: 400px;
+	height: 320px;
 }
 
 .skill-icon-html {
