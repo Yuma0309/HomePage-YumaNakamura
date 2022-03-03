@@ -31,7 +31,7 @@ ul, li {
 
 .side-menu-style {
 	list-style: none; /* リストとして認識させない */
-	top: 50px; /* 上からの距離 */
+	top: 10px; /* 上からの距離 */
 }
 
 a { text-decoration: none; } /* テキストの装飾を指定しない */
@@ -55,6 +55,12 @@ nav {
 	margin-bottom:-1600px;
 	top: 0; /* 上からの距離 */
 	position: fixed; /*要素を固定配置で指定*/
+}
+
+.github-icon {
+	width: 20%;
+	margin: 30px 20px;
+	padding: 0;
 }
 
 /* ヘッダー -------------------------------------------- */
@@ -653,6 +659,10 @@ nav {
 	font-size: 11px;
 	padding-bottom: 2100px; /* 要素内の余白を指定 */
 	margin-bottom:-2100px;
+}
+
+.github-icon {
+	margin: 20px 10px;
 }
 
 h1 {
