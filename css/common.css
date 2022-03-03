@@ -133,7 +133,7 @@ table td { /* 表の右全体の枠 */
 section {
 	width: 100%;
 	max-width: 1440px;
-	margin: 70px 0 0 40px;
+	margin-left: 40px;
 	float: left;
 }
 
@@ -141,6 +141,7 @@ section {
 	width: 94%;
 	border: solid #00a2ff;
 	border-width: 1px 1px 1px 10px;
+	margin-top: 80px;
 }
 
 .card {
@@ -452,149 +453,89 @@ table td {
 
 section {
 	max-width: 600px;
-	margin: 50px 0 0 50px;
+	margin-left: 50px;
 }
 
 .title {
 	width: 95%;
-}
-
-.card {
-	margin: 20px 145px;
-}
-
-}
-
-/* ---------------------- 画面の横幅が600px以下の場合に適用（スマートフォン用） ---------------------- */
-@media screen and (max-width: 600px) {
-
-body {
-font-size: 10px;
-}
-
-ul, li {
-	margin-left: 5px;
-	padding: 0;
-}
-
-nav {
-	max-width: 85px;
-	font-size: 11px;
-	padding-bottom: 2100px; /* 要素内の余白を指定 */
-	margin-bottom:-2100px;
-}
-
-h1 {
-	margin-left: 100px;
-}
-
-main {
-	max-width: 330px;
-	margin: 140px 0 0 40px;
-}
-
-.photo {
-		float: none;
-		margin-left: 70px;
-		width: 65%;
-}
-
-table {
-	margin-left: 0;
-	padding-left: 6em;
-	padding-right: 1em;
-}
-
-table th {
-	padding: 0; /* セル内の余白を指定 */
-	width: 20%; /* 横同士のセルの比率を指定 */
-}
-
-table td {
-	padding: 0;
-	width: 80%;
-}
-
-section {
-	max-width: 280px;
-	margin: 50px 0 0 50px;
-}
-
-.title {
-	width: 95%;
+	margin-top: 60px;
 }
 
 .card {
 	width: 250px;
-	margin: 20px 15px;
+	margin: 20px 20px;
 }
 
 .card-color-html {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-css {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-javascript {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-php {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-mysql {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-github {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-arduino {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-arcad {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-autocad {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-solidworks {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-stream {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-fritzing {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-ltspice {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-bsch3v {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-flatcam {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-usbcnc {
-	height: 450px;
+	height: 500px;
 }
 
 .card-color-kanken {
-	height: 450px;
+	height: 500px;
+}
+
+.skill-title {
+	padding: 1px;
 }
 
 .skill-icon-html {
@@ -675,6 +616,233 @@ section {
 	width: 88%;
 	margin: 0;
 	padding: 0 15px;
+}
+
+.section-text {
+	padding: 0 15px;
+}
+
+.book {
+	font-size: 9px;
+}
+
+.book-title {
+	font-size: 7px;
+}
+
+}
+
+/* ---------------------- 画面の横幅が600px以下の場合に適用（スマートフォン用） ---------------------- */
+@media screen and (max-width: 600px) {
+
+body {
+font-size: 10px;
+}
+
+ul, li {
+	margin-left: 5px;
+	padding: 0;
+}
+
+nav {
+	max-width: 85px;
+	font-size: 11px;
+	padding-bottom: 2100px; /* 要素内の余白を指定 */
+	margin-bottom:-2100px;
+}
+
+h1 {
+	margin-left: 100px;
+}
+
+main {
+	max-width: 330px;
+	margin: 140px 0 0 40px;
+}
+
+.photo {
+		float: none;
+		margin-left: 70px;
+		width: 65%;
+}
+
+table {
+	margin-left: 0;
+	padding-left: 6em;
+	padding-right: 1em;
+}
+
+table th {
+	padding: 0; /* セル内の余白を指定 */
+	width: 20%; /* 横同士のセルの比率を指定 */
+}
+
+table td {
+	padding: 0;
+	width: 80%;
+}
+
+section {
+	max-width: 280px;
+	margin-left: 50px;
+}
+
+.title {
+	width: 95%;
+	margin-top: 50px;
+}
+
+.card {
+	width: 120px;
+	margin: 20px 10px;
+}
+
+.card-color-html {
+	height: 400px;
+}
+
+.card-color-css {
+	height: 400px;
+}
+
+.card-color-javascript {
+	height: 400px;
+}
+
+.card-color-php {
+	height: 400px;
+}
+
+.card-color-mysql {
+	height: 400px;
+}
+
+.card-color-github {
+	height: 400px;
+}
+
+.card-color-arduino {
+	height: 400px;
+}
+
+.card-color-arcad {
+	height: 400px;
+}
+
+.card-color-autocad {
+	height: 400px;
+}
+
+.card-color-solidworks {
+	height: 400px;
+}
+
+.card-color-stream {
+	height: 400px;
+}
+
+.card-color-fritzing {
+	height: 400px;
+}
+
+.card-color-ltspice {
+	height: 400px;
+}
+
+.card-color-bsch3v {
+	height: 400px;
+}
+
+.card-color-flatcam {
+	height: 400px;
+}
+
+.card-color-usbcnc {
+	height: 400px;
+}
+
+.card-color-kanken {
+	height: 400px;
+}
+
+.skill-icon-html {
+	padding: 0 31px;
+}
+
+.skill-icon-css {
+	padding: 0 31px;
+}
+
+.skill-icon-javascript {
+	padding: 0 31px;
+}
+
+.skill-icon-php {
+	width: 57%;
+	margin: 0;
+	padding: 0 26px;
+}
+
+.skill-icon-mysql {
+	padding: 0 31px;
+}
+
+.skill-icon-github {
+	padding: 0 31px;
+}
+
+.skill-icon-arduino {
+	padding: 0 31px;
+}
+
+.skill-icon-arcad {
+	padding: 0 31px;
+}
+
+.skill-icon-autocad {
+	width: 89%;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.skill-icon-solidworks {
+	padding: 0 31px;
+}
+
+.skill-icon-stream {
+	width: 48%;
+	margin: 0;
+	padding: 0 32px;
+}
+
+.skill-icon-fritzing {
+	padding: 0 31px;
+}
+
+.skill-icon-ltspice {
+	width: 92%;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.skill-icon-bsch3v {
+	padding: 0 31px;
+}
+
+.skill-icon-flatcam {
+	padding: 0 31px;
+}
+
+.skill-icon-usbcnc {
+	width: 70%;
+	margin: 0;
+	padding: 0 18px;
+}
+
+.skill-icon-kanken {
+	width: 88%;
+	margin: 0;
+	padding: 0 7px;
 }
 
 .book {
