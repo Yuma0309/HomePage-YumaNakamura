@@ -178,7 +178,12 @@ section {
 }
 
 .card-color-mysql {
-	background-color: #ffbea4;
+	background-color: #ffc9b5;
+	height: 600px;
+}
+
+.card-color-laravel {
+	background-color: #ffc3ba;
 	height: 600px;
 }
 
@@ -272,6 +277,12 @@ section {
 	width: 57%;
 	margin: 0;
 	padding: 0 65px;
+}
+
+.skill-icon-laravel {
+	width: 48%;
+	margin: 0;
+	padding: 0 75px;
 }
 
 .skill-icon-mysql {
@@ -387,6 +398,12 @@ section {
 
 .book-color-php {
 	background-color: #fbdcff;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-laravel {
+	background-color: #fff0da;
 	border-radius: 10px;
 	padding: 5px 0;
 }
@@ -539,6 +556,10 @@ section {
 	height: 500px;
 }
 
+.card-color-laravel {
+	height: 500px;
+}
+
 .card-color-mysql {
 	height: 500px;
 }
@@ -611,6 +632,10 @@ section {
 	width: 57%;
 	margin: 0;
 	padding: 0 52px;
+}
+
+.skill-icon-laravel {
+	padding: 0 62px;
 }
 
 .skill-icon-mysql {
@@ -798,6 +823,10 @@ section {
 	height: 400px;
 }
 
+.card-color-laravel {
+	height: 400px;
+}
+
 .card-color-mysql {
 	height: 400px;
 }
@@ -866,6 +895,10 @@ section {
 	width: 57%;
 	margin: 0;
 	padding: 0 26px;
+}
+
+.skill-icon-laravel {
+	padding: 0 31px;
 }
 
 .skill-icon-mysql {
