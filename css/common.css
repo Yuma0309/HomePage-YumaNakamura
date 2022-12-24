@@ -417,6 +417,57 @@ section {
 	text-decoration: underline;
 }
 
+
+
+
+
+.app-photo {
+	width: 96%;
+	margin: 0;
+	padding: 20px 10px 0px 10px;
+}
+
+.card-app {
+	width: 640px;
+	margin: 50px 20px;
+	padding: 0;
+	float: left;
+}
+
+.card-color-graph {
+	background-color: #a4fcff;
+	height: 420px;
+}
+
+.card-color-sort {
+	background-color: #ffbea4;
+	height: 420px;
+}
+
+.card-color-search {
+	background-color: #fffda4;
+	height: 420px;
+}
+
+.card-color-titlesindex {
+	background-color: #a4ffa9;
+	height: 420px;
+}
+
+.app-photo-index {
+	width: 93%;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.app {
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 5px 0;
+}
+
+
 /* ---------------------- 画面の横幅が1500px以下の場合に適用（タブレット用） ---------------------- */
 @media screen and (max-width: 1500px) {
 nav {
@@ -640,6 +691,26 @@ section {
 	font-size: 7px;
 }
 
+.card-app {
+	width: 550px;
+}
+
+.card-color-graph {
+	height: 350px;
+}
+
+.card-color-sort {
+	height: 350px;
+}
+
+.card-color-search {
+	height: 350px;
+}
+
+.card-color-titlesindex {
+	height: 350px;
+}
+
 }
 
 /* ---------------------- 画面の横幅が600px以下の場合に適用（スマートフォン用） ---------------------- */
@@ -712,71 +783,71 @@ section {
 }
 
 .card-color-html {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-css {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-javascript {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-php {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-mysql {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-github {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-arduino {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-arcad {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-autocad {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-solidworks {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-stream {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-fritzing {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-ltspice {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-bsch3v {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-flatcam {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-usbcnc {
-	height: 320px;
+	height: 400px;
 }
 
 .card-color-kanken {
-	height: 320px;
+	height: 400px;
 }
 
 .skill-icon-html {
@@ -865,6 +936,33 @@ section {
 
 .book-title {
 	font-size: 7px;
+}
+
+.app-photo {
+	width: 96%;
+	margin: 0;
+	padding: 20px 5px 0px 5px;
+}
+
+.card-app {
+	width: 240px;
+	margin: 30px 20px;
+}
+
+.card-color-graph {
+	height: 280px;
+}
+
+.card-color-sort {
+	height: 280px;
+}
+
+.card-color-search {
+	height: 280px;
+}
+
+.card-color-titlesindex {
+	height: 280px;
 }
 
 }
