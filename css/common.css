@@ -182,6 +182,11 @@ section {
 	height: 600px;
 }
 
+.card-color-mariadb {
+	background-color: #b5f0ff;
+	height: 600px;
+}
+
 .card-color-laravel {
 	background-color: #ffc3ba;
 	height: 600px;
@@ -289,6 +294,12 @@ section {
 	width: 50%;
 	margin: 0;
 	padding: 0 75px;
+}
+
+.skill-icon-mariadb {
+	width: 75%;
+	margin: 0;
+	padding: 0 30px;
 }
 
 .skill-icon-github {
@@ -414,6 +425,12 @@ section {
 	padding: 5px 0;
 }
 
+.book-color-mariadb {
+	background-color: #dcfffd;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
 .book-color-github {
 	background-color: #e7e7e7;
 	border-radius: 10px;
@@ -456,7 +473,7 @@ section {
 	height: 420px;
 }
 
-.card-color-sort {
+/* .card-color-sort {
 	background-color: #ffbea4;
 	height: 420px;
 }
@@ -469,7 +486,7 @@ section {
 .card-color-titlesindex {
 	background-color: #a4ffa9;
 	height: 420px;
-}
+} */
 
 .app-photo-index {
 	width: 93%;
@@ -532,7 +549,7 @@ section {
 
 .title {
 	width: 95%;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .card {
@@ -561,6 +578,10 @@ section {
 }
 
 .card-color-mysql {
+	height: 500px;
+}
+
+.card-color-mariadb {
 	height: 500px;
 }
 
@@ -642,6 +663,10 @@ section {
 	padding: 0 62px;
 }
 
+.skill-icon-mariadb {
+	padding: 0 30px;
+}
+
 .skill-icon-github {
 	padding: 0 62px;
 }
@@ -720,11 +745,11 @@ section {
 	width: 550px;
 }
 
-.card-color-graph {
+.card-color-measrec {
 	height: 350px;
 }
 
-.card-color-sort {
+/* .card-color-sort {
 	height: 350px;
 }
 
@@ -734,7 +759,7 @@ section {
 
 .card-color-titlesindex {
 	height: 350px;
-}
+} */
 
 }
 
@@ -799,7 +824,7 @@ section {
 
 .title {
 	width: 95%;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .card {
@@ -828,6 +853,10 @@ section {
 }
 
 .card-color-mysql {
+	height: 400px;
+}
+
+.card-color-mariadb {
 	height: 400px;
 }
 
@@ -903,6 +932,10 @@ section {
 
 .skill-icon-mysql {
 	padding: 0 31px;
+}
+
+.skill-icon-mariadb {
+	padding: 0 15px;
 }
 
 .skill-icon-github {
@@ -982,20 +1015,20 @@ section {
 	margin: 30px 20px;
 }
 
-.card-color-graph {
+.card-color-measrec {
 	height: 280px;
 }
 
-.card-color-sort {
+/* .card-color-sort {
 	height: 280px;
-}
-
+} */
+/* 
 .card-color-search {
 	height: 280px;
 }
 
 .card-color-titlesindex {
 	height: 280px;
-}
+} */
 
 }
