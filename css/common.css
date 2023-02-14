@@ -555,6 +555,11 @@ section {
 	height: 470px;
 }
 
+.card-color-linktree {
+	background-color: #ffc3ba;
+	height: 470px;
+}
+
 /* .card-color-sort {
 	background-color: #ffbea4;
 	height: 420px;
@@ -885,6 +890,10 @@ section {
 	height: 400px;
 }
 
+.card-color-linktree {
+	height: 400px;
+}
+
 /* .card-color-sort {
 	height: 350px;
 }
@@ -1206,6 +1215,10 @@ section {
 }
 
 .card-color-measrec {
+	height: 290px;
+}
+
+.card-color-linktree {
 	height: 290px;
 }
 
