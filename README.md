@@ -6,18 +6,18 @@
 
 ・[中村祐馬のホームページ](http://measrec.s239.xrea.com/homepage.measrec.s239/)
 
-![top](https://user-images.githubusercontent.com/97374588/211235875-e85a57ea-a2e0-4abc-b495-f30678f6470e.jpeg)
+![top](https://user-images.githubusercontent.com/97374588/218703959-68a45b97-02a5-41ae-9b26-e60e681dfe2c.jpeg)
 
 プロフィールページです。
 
 <br><br>
 
-![skill](https://user-images.githubusercontent.com/97374588/211235913-9e98c261-3ea4-4ca3-8274-82439c52ee54.jpeg)
+![skill](https://user-images.githubusercontent.com/97374588/218704123-79cba5c6-0eb0-4eec-9f89-59a5fa700287.jpeg)
 
 習得したスキルの一覧ページです。
 
 <br><br>
 
-![artifact](https://user-images.githubusercontent.com/97374588/211236081-15eeaa60-b96a-4aaa-82aa-d623ba41d959.jpeg)
+![artifact](https://user-images.githubusercontent.com/97374588/218704233-f0a8c17f-9795-4429-9bcc-d5f6ab5d1010.jpeg)
 
 作成した成果物の詳細ページです。
