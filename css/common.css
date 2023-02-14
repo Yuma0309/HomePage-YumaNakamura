@@ -186,6 +186,31 @@ section {
 	height: 600px;
 }
 
+.card-color-python {
+	background-color: #a4e8ff;
+	height: 600px;
+}
+
+.card-color-java {
+	background-color: #e2e2e2;
+	height: 600px;
+}
+
+.card-color-c {
+	background-color: #f1f1f1;
+	height: 600px;
+}
+
+.card-color-laravel {
+	background-color: #ffc3ba;
+	height: 600px;
+}
+
+.card-color-django {
+	background-color: #9efeb1;
+	height: 600px;
+}
+
 .card-color-mysql {
 	background-color: #ffc9b5;
 	height: 600px;
@@ -196,8 +221,8 @@ section {
 	height: 600px;
 }
 
-.card-color-laravel {
-	background-color: #ffc3ba;
+.card-color-aws {
+	background-color: #f2f2f2;
 	height: 600px;
 }
 
@@ -293,34 +318,64 @@ section {
 	padding: 0 65px;
 }
 
-.skill-icon-laravel {
+.skill-icon-python {
+	width: 57%;
+	margin: 0;
+	padding: 0 65px;
+}
+
+.skill-icon-java {
+	width: 31%;
+	margin: 0;
+	padding: 0 105px;
+}
+
+.skill-icon-c {
 	width: 48%;
 	margin: 0;
-	padding: 0 75px;
+	padding: 0 78px;
+}
+
+.skill-icon-laravel {
+	width: 55%;
+	margin: 0;
+	padding: 0 70px;
+}
+
+.skill-icon-django {
+	width: 70%;
+	margin: 59px 0;
+	padding: 0 45px;
 }
 
 .skill-icon-mysql {
-	width: 50%;
+	width: 57%;
 	margin: 0;
-	padding: 0 75px;
+	padding: 0 70px;
 }
 
 .skill-icon-mariadb {
-	width: 75%;
+	width: 85%;
 	margin: 0;
-	padding: 0 30px;
+	padding: 0 20px;
+}
+
+.skill-icon-aws {
+	width: 60%;
+	margin: 43px 0;
+	padding: 0 59px;
 }
 
 .skill-icon-github {
-	width: 50%;
+	width: 58%;
 	margin: 0;
-	padding: 0 75px;
+	padding: 0 63px;
 }
 
 .skill-icon-arduino {
-	width: 50%;
+	width: 56%;
 	margin: 0;
-	padding: 0 75px;
+	padding: 0 66px;
 }
 
 .skill-icon-arcad {
@@ -422,8 +477,26 @@ section {
 	padding: 5px 0;
 }
 
+.book-color-python {
+	background-color: #dcfaff;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-java {
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
 .book-color-laravel {
 	background-color: #fff0da;
+	border-radius: 10px;
+	padding: 5px 0;
+}
+
+.book-color-django {
+	background-color: #daffdc;
 	border-radius: 10px;
 	padding: 5px 0;
 }
@@ -588,7 +661,23 @@ section {
 	height: 500px;
 }
 
+.card-color-python {
+	height: 500px;
+}
+
+.card-color-java {
+	height: 500px;
+}
+
+.card-color-c {
+	height: 500px;
+}
+
 .card-color-laravel {
+	height: 500px;
+}
+
+.card-color-django {
 	height: 500px;
 }
 
@@ -597,6 +686,10 @@ section {
 }
 
 .card-color-mariadb {
+	height: 500px;
+}
+
+.card-color-aws {
 	height: 500px;
 }
 
@@ -670,24 +763,52 @@ section {
 	padding: 0 52px;
 }
 
+.skill-icon-python {
+	width: 57%;
+	margin: 0;
+	padding: 0 52px;
+}
+
+.skill-icon-java {
+	width: 31%;
+	margin: 0;
+	padding: 0 85px;
+}
+
+.skill-icon-c {
+	width: 48%;
+	margin: 0;
+	padding: 0 65px;
+}
+
 .skill-icon-laravel {
-	padding: 0 62px;
+	padding: 0 60px;
+}
+
+.skill-icon-django {
+	margin: 51px 0;
+	padding: 0 38px;
 }
 
 .skill-icon-mysql {
-	padding: 0 62px;
+	padding: 0 60px;
 }
 
 .skill-icon-mariadb {
-	padding: 0 30px;
+	padding: 0 18px;
+}
+
+.skill-icon-aws {
+	margin: 38px 0;
+	padding: 0 50px;
 }
 
 .skill-icon-github {
-	padding: 0 62px;
+	padding: 0 55px;
 }
 
 .skill-icon-arduino {
-	padding: 0 62px;
+	padding: 0 54px;
 }
 
 .skill-icon-arcad {
@@ -854,79 +975,99 @@ section {
 }
 
 .card-color-html {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-css {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-javascript {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-php {
-	height: 400px;
+	height: 450px;
+}
+
+.card-color-python {
+	height: 450px;
+}
+
+.card-color-java {
+	height: 450px;
+}
+
+.card-color-c {
+	height: 450px;
 }
 
 .card-color-laravel {
-	height: 400px;
+	height: 450px;
+}
+
+.card-color-django {
+	height: 450px;
 }
 
 .card-color-mysql {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-mariadb {
-	height: 400px;
+	height: 450px;
+}
+
+.card-color-aws {
+	height: 450px;
 }
 
 .card-color-github {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-arduino {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-arcad {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-autocad {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-solidworks {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-stream {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-fritzing {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-ltspice {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-bsch3v {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-flatcam {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-usbcnc {
-	height: 400px;
+	height: 450px;
 }
 
 .card-color-kanken {
-	height: 400px;
+	height: 450px;
 }
 
 .skill-icon-html {
@@ -947,24 +1088,52 @@ section {
 	padding: 0 26px;
 }
 
+.skill-icon-python {
+	width: 57%;
+	margin: 0;
+	padding: 0 26px;
+}
+
+.skill-icon-java {
+	width: 31%;
+	margin: 0;
+	padding: 0 40px;
+}
+
+.skill-icon-c {
+	width: 48%;
+	margin: 0;
+	padding: 0 32px;
+}
+
 .skill-icon-laravel {
-	padding: 0 31px;
+	padding: 0 30px;
+}
+
+.skill-icon-django {
+	margin: 26px 0;
+	padding: 0 18px;
 }
 
 .skill-icon-mysql {
-	padding: 0 31px;
+	padding: 0 28px;
 }
 
 .skill-icon-mariadb {
-	padding: 0 15px;
+	padding: 0 8px;
+}
+
+.skill-icon-aws {
+	margin: 19px 0;
+	padding: 0 24px;
 }
 
 .skill-icon-github {
-	padding: 0 31px;
+	padding: 0 25px;
 }
 
 .skill-icon-arduino {
-	padding: 0 31px;
+	padding: 0 27px;
 }
 
 .skill-icon-arcad {
